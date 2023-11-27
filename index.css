@@ -1,0 +1,23 @@
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    gap: 50px;
+    /* justify-content: space-between; */
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+    /* align-items: stretch; */
+    /* width: 300px; */
+    /* flex-wrap: wrap; */
+}
+
+.flex div {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    border: solid black;
+}
+
